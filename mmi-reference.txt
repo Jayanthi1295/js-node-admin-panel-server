@@ -1,0 +1,92 @@
+
+1. Historical data tracking api reference
+   https://www.mapmyindia.com/api/advanced-maps/doc/historical-location
+
+   https://www.mapmyindia.com/api/advanced-maps/doc/event#/events/getLocationEvents
+     => This API is used to get the historical location information as well as related additional information for a vehicle. 
+        This API can be used thus to create customized reports for users of your apps for different use cases,
+      e.g.: plot the vehicle's past movements on map or get a historical graph of change in a vehicle's altitude.
+
+ 2. Get all activities done by devices w.r.t Geofences
+   https://www.mapmyindia.com/api/advanced-maps/doc/geofence#/geofence/get_geofences_activities
+
+
+
+   URL: 
+   Telematics API reference
+   https://www.mapmyindia.com/api/advanced-maps/doc/get-your-key
+
+   API List :
+   Token:
+   1. https://outpost.mapmyindia.com/api/security/oauth/token
+  
+   Telematics :
+   2. https://intouch.mapmyindia.com/iot/api/geofences 
+
+      2.1) Devices - 6 api
+            https://intouch.mapmyindia.com/iot/api/geofences/devices 
+
+      2.2) Alarm - 5 api    
+           https://intouch.mapmyindia.com/iot/api/geofences/alarms
+
+      2.3) Geofences - 6 api
+            https://intouch.mapmyindia.com/iot/api/geofences/geofences
+
+      2.4) Group - 4 api 
+            https://intouch.mapmyindia.com/iot/api/geofences/groups
+
+      2.5) Trip - 4 api        
+             https://intouch.mapmyindia.com/iot/api/geofences/trips
+
+      2.6) Historical location data - 1 api
+            https://apis.mapmyindia.com/intouch/v1/<licence_key>/>/getEvents?       
+
+  3. Geo-Analytics - 2 api
+      3.1) https://geoanalytics.mapmyindia.com/listingapi?api=state&geo_bound_type=india&geo_bound=india&get_attr=stt_nme
+
+  4. Route & Navigation API - 3 api
+      Distance matrix, geofence matrix, vehicle matrix
+      4.1) https://apis.mapmyindia.com/advancedmaps/v1/<assigned_license_key>/distance_matrix/
+
+  5. Live location API Reference
+      5.1) https://www.mapmyindia.com/api/advanced-maps/doc/live-location
+
+      Looking for instance live tracking api. 
+-------------------------------------------------------------------------------------------
+     From MMI
+      Mapping Platform APIs:
+      Maps - https://www.mapmyindia.com/api/maps/
+      Routing - https://www.mapmyindia.com/api/routes-and-navigation/
+      Search and Geocoding - https://www.mapmyindia.com/api/search-and-geocoding/
+
+      Telematics Platform: Intouch > https://www.mapmyindia.com/intouch-platform
+      Mobility & Tracking SDK/APIs > https://www.mapmyindia.com/api/mobility-and-tracking/
+
+---------------------------------------------------------------------------------------------------
+ IOT- Telematics API Reference
+
+ 1. MMI - Intouch APIs 
+   https://www.mapmyindia.com/api/intouch-api.php
+    https://www.mapmyindia.com/api/intouch-api/getLiveData.php
+                 
+   https://www.mapmyindia.com/api/move-api/              
+
+ 2. For Node.Js
+    2.1) package: mapmyindia-sdk-nodejs
+    https://github.com/malkitsingh/mapmyindia-sdk-nodejs
+
+
+ 3. For React
+    3.1) package : mapmyindia-react  
+          https://github.com/khotharish1207/mapmyindia-react
+          https://npm.io/package/mapmyindia-react
+
+    3.2) package : react-mapmyindia 
+          https://github.com/channelbridge/react-mapmyindia
+          https://npm.io/package/react-mapmyindia
+
+
+
+
+
+            
